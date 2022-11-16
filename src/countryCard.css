@@ -1,0 +1,55 @@
+.country-card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.country-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    padding: 7px;
+    margin-left: 7px;
+    margin-top: 10px;
+    box-shadow: 0px 0px 7px -3px rgb(0 0 0);
+    justify-content: space-evenly;
+    width: 240px;
+    border-radius: 10px 10px 10px 10px;
+    transition: all 0.3s ;
+}
+
+.country-card:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.img-container{
+    max-width: fit-content;
+}
+
+.img-container > img{
+    border: 1px solid rgb(0 0 0);
+    border-radius: 10px 10px 10px 10px;
+    max-width: 250px;
+    transform: scale(0.8);
+}
+
+.txt-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media screen and (min-width: 536px){
+    .country-card{
+        flex-direction: row;
+        align-items: stretch;
+        width: 400px;
+        flex-direction: row;
+    }
+
+    .img-container > img{
+        max-width: 200px;
+    }
+}
