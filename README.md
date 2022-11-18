@@ -18,7 +18,7 @@ to simply go through theory without any actual real work being done.
 
 ## Brief Overview
 This is a very simple app to explore React components learned as mentioned above.  
-The app simply gets a list of countries from the [Rest countries]() API endpoint and displays them in a well-formatted interface.  
+The app simply gets a list of countries from the [Rest countries](https://restcountries.com/) API endpoint and displays them in a well-formatted interface.  
 I explored the useState() and useEffect hooks() extensively in this project leading me to new terms such as pure functions, side effects and
 Lifting State Up.
 
