@@ -48,6 +48,10 @@
     justify-content: space-around;
 }
 
+#country-list a:hover{
+    text-decoration: none;
+}
+
 @media screen and (min-width: 536px){
     .country-card{
         flex-direction: row;

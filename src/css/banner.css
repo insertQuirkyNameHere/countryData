@@ -1,0 +1,53 @@
+.banner{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.banner-flags-container{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.banner-flags-container img{
+    margin-right: 20px;
+    width: 40px;
+    height: 30px;
+}
+
+.bannerText{
+    font-size: 2.5rem;
+}
+
+.btn{
+    text-decoration: none;
+    margin: 30px;
+    padding: 10px;
+    background-color: rgb(85, 200, 125);
+    color: rgb(0, 0, 0);
+    border-radius: 3px;
+}
+
+.btn:hover{
+    text-decoration: none;
+    background-color: rgb(75, 177, 111);
+}
+
+@media screen and (min-width: 500px) {
+    .banner-flags-container img{
+        width: 75px;
+        height: 50px;
+    }
+}

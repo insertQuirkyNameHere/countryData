@@ -53,11 +53,12 @@ const App = _ =>{
     <>
       <Banner />
       
-      <section id="Filter countries">
+      <section id="filter-countries">
+        <h2>Filter</h2>
         <input type="text" name="country" placeholder="Country name" onChange={handleCountryInpChange} value={countryInput}/>
       </section>
 
-      <section id="Country-List">
+      <section id="country-list">
         <h2>Filtered Countries</h2>
         <div className="country-card-container">
           {countriesToShow.map( (country, index) => <a key={index}> <CountryCard country={country}/> </a>)}
