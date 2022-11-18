@@ -1,4 +1,4 @@
-import './countryCard.css'
+import './css/countryCard.css'
 
 const CountryCard = ({country}) =>{
     return(

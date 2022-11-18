@@ -3,6 +3,9 @@ import React from "react";
 import { useEffect, useState } from "react";
 
 import CountryCard from "./CountryCard";
+import Banner from "./Banner";
+
+import './css/root.css'
 
 const App = _ =>{
 
@@ -48,6 +51,8 @@ const App = _ =>{
   console.log(countriesToShow);
   return(
     <>
+      <Banner />
+      
       <section id="Filter countries">
         <input type="text" name="country" placeholder="Country name" onChange={handleCountryInpChange} value={countryInput}/>
       </section>
