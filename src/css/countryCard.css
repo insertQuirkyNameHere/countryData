@@ -18,7 +18,8 @@
     border-radius: 10px 10px 10px 10px;
     background-color: #181818;
     transition: all 0.3s ;
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
+    min-height: 180px;
 }
 
 .country-card h3{
