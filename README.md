@@ -1,5 +1,7 @@
 # Fetching Country Data from REST Countries API
 
+Find the live site [here](https://countrydata-beryl.vercel.app/)
+
 This project was built to gain some React experience after going through a lot of concepts. It was an attempt to stay coding regularly- so as not
 to simply go through theory without any actual real work being done.
 
